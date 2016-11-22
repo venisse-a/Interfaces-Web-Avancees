@@ -1,0 +1,25 @@
+/* app css stylesheet */
+
+.appMenu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.appMenu:before {
+  content: "[";
+}
+
+.appMenu:after {
+  content: "]";
+}
+
+.appMenu > li {
+  display: inline;
+}
+
+.appMenu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}

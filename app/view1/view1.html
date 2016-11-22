@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+	<div id="login_user">
+		<div class="row">
+			<div class="large-6 columns">
+				<div class="signup-panel">
+					<p class="welcome"> Sign in to access the page</p>
+					<div data-abide-error class="alert callout" ng-show="authFailed">
+						<p><i class="error"></i>&nbsp;&nbsp;{{loginFailedMessage}}</p>
+					</div>
+					<form>
+						<div class="row collapse">
+							<div class="small-2  columns">
+								<span class="prefix"><i class="fi-torso-female"></i></span>
+							</div>
+							<div class="small-10  columns">
+								<input type="text" placeholder="Login" ng-model="user.username">
+							</div>
+							<div class="small-10  columns2">
+								<input type="password" placeholder="Password" ng-model="user.password">
+							</div>
+						</div>
+					<button class="button " ng-click="login()"> Login </button>
+				</form>
+			</div>
+		</div>
+		<br>
+	</div>
+</html>
