@@ -1,6 +1,6 @@
 Projet réalisé par Anthony VENISSE, Peniel MATETA et Vincent GERARDIN 3C
 
-Install And Run application 
+Install And Run application :
 
 -Clone from Github repository
 
